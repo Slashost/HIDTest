@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements Runnable {
 
     private int param1;
 
+    private int param2;
+
     ArrayList<String> list = new ArrayList<>();
 
     private PendingIntent mPermissionIntent;
