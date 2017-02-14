@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements Runnable {
 
     private TextView mCountTextView;
 
+    private int param1;
+
     ArrayList<String> list = new ArrayList<>();
 
     private PendingIntent mPermissionIntent;
